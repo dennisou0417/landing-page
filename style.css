@@ -14,6 +14,8 @@ body{
     flex-direction: column;
     padding-bottom: 100px;
     align-items:center;
+    justify-content: space-between;
+    height:400px;
 }
 
 /*.main-header{
@@ -24,11 +26,10 @@ body{
 
 .main-header, .subheader{
     display: flex;
-    padding: 0 350px 0 350px;
-}
-
-.main-header{
-    gap:300px;
+    width:1000px;
+    padding:5px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero{
@@ -44,11 +45,12 @@ body{
 
 .signup{
     background-color: #3882F6;
-}
-
-.logo{
-    font-size: 24px;
-    color:#F9FAF8;
+    border-radius: 6px;
+    border:none;
+    color:white;
+    padding:10px 20px;
+    font-size: 12px;
+    margin-top:auto;
 }
 
 .logo a{
@@ -59,30 +61,24 @@ body{
 
 .nav a{
     text-decoration: none;
+    display:flex;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 ul{
-    list-style: none;
+    list-style:none;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 20px;
-}
-
-.nav{
-    padding:20px;
+    margin:0;
+    padding:0;
 }
 
 .logo img{
     height:20px;
     width:20px;
-}
-
-.subheader{
-    align-items: center;
-    gap: 150px;
+    margin:0;
+    padding:0;
 }
 
 .subheader img{
@@ -92,9 +88,9 @@ ul{
 
 .hero-container{
     display: flex;
-    max-width: 300px;
+    height: 250px;
+    max-width: 450px;
     flex-direction: column;
-    padding:0;
-    margin:0;
-    gap:0;
+    justify-content:space-evenly;
+    align-items: flex-start;
 }
