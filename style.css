@@ -179,3 +179,9 @@ ul{
     height:30px;
     align-self: flex-end;
 }
+
+.footer{
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
