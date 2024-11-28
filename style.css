@@ -141,3 +141,41 @@ ul{
 .quote-container .author{
     align-self: flex-end;
 }
+
+.banner-container{
+    display:flex;
+    justify-content: center;
+    padding:100px;
+}
+
+.banner{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    width: 1000px;
+    max-height: 200px;
+    border-radius: 4px;
+    padding:25px 75px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.banner-header{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.recruit{
+    font-size: 10px;
+}
+
+.signup-secondary{
+    background-color: #3882F6;
+    border-color: white;
+    color:white;
+    border-radius: 6px;
+    border-width: 1px;
+    padding: 0 12px;
+    width:100px;
+    height:30px;
+    align-self: flex-end;
+}
